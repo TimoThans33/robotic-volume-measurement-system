@@ -1,0 +1,4 @@
+pymongo
+aiohttp
+websockets
+aiohttp_cors

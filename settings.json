@@ -1,0 +1,11 @@
+{
+    "settings": {
+        "executable": "usr/local/bin/primevision/pvt-dimensioner-client",
+        "type": "service",
+        "restart_policy": "always",
+        "user": "root"
+    },
+    "instances": [
+        "1"
+    ]
+}

@@ -1,0 +1,30 @@
+mongod_connection_string: mongodb://172.20.0.2:27017
+
+# simulator
+qb_ip: 0.0.0.0
+qb_port: 5556
+
+sick_ip: 0.0.0.0
+sick_port: 2001
+
+http_ip: 0.0.0.0
+http_port: 8080
+
+print_raw_xml: false
+print_sick_callbacks: true
+
+ftp_ip: localhost
+ftp_user: ttftp
+ftp_password: roundwego
+
+csv_writer_interval: 10sec
+#csv_writer_starting_time: now
+
+piecematcher_frequency: 0.1
+
+peers:
+  - id: qb_api
+    ip: 192.168.9.2
+    port: 6011
+    partition: pv
+    scope: PARTITION
