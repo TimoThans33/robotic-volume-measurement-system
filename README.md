@@ -57,6 +57,9 @@ cd scripts/
 This project uses a combination of pyinstaller and cmake to bundle all the python code into one executable and debian file. You can build this locally on your computer by using the docker file. The build environment is still in development, so reach out to one of the maintainers if you run into any issues.
 
 ## Usage
+For real time information the operator pannel can be used. This is a web application that can be accessed via the IP address of the dimensioner client.
+
+![Operator Panel](media/gui.jpg)
 
 The following HTTP endpoints are available:
 * dumplectordata: shows the time, barcodes, ftp folders 
